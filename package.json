@@ -1,0 +1,21 @@
+{
+  "name": "soulcore",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Soulcore Bot",
+  "main": "./src/Util/Manager/ShardManager.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "node ."
+  },
+  "author": "Soulcore Development",
+  "license": "",
+  "dependencies": {
+    "discord-arts": "^0.4.0",
+    "discord.js": "^14.12.1",
+    "dotenv": "^16.3.1",
+    "i18next": "^23.7.6",
+    "mongoose": "^7.4.2",
+    "ms": "^2.1.3"
+  }
+}

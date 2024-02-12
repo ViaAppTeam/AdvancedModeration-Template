@@ -1,0 +1,5 @@
+{
+    "own": "Bu işlemi kendi üzerinizde uygulayamazsınız.",
+    "client": "Bu işlemi benim üzerimde uygulayamazsınız.",
+    "auth": "Bu işlemi belirtilen kullanıcıda uygulayamazsınız."
+}

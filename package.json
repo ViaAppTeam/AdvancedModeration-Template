@@ -2,13 +2,13 @@
   "name": "soulcore",
   "version": "0.0.1",
   "type": "module",
-  "description": "Soulcore Bot",
+  "description": "ViaAppTeam Advanced Moderation Bot",
   "main": "./src/Util/Manager/ShardManager.js",
   "scripts": {
     "start": "node .",
     "dev": "node ."
   },
-  "author": "Soulcore Development",
+  "author": "ViaAppTeam",
   "license": "",
   "dependencies": {
     "discord-arts": "^0.4.0",

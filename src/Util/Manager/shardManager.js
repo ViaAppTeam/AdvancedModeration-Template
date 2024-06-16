@@ -6,5 +6,5 @@ const manager = new ShardingManager("./src/server.js", { token: process.env.TOKE
 
 manager.spawn()
     .then(() => {
-        console.log(`Soulcore connected the Discord API. `);
+        console.log(`ViaAppTeam Advanced Moderation connected the Discord API. `);
     });

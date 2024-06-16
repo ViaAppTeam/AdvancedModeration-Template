@@ -26,12 +26,12 @@ export const data = {
             );
 
         const newEmbed = new EmbedBuilder()
-        .setTitle(` Soulcore - Yardım Menü`)
+            .setTitle(`ViaAppTeam Advanced Moderation - Yardım Menü`)
         .setColor(`Blurple`)
         .setImage("https://cdn.discordapp.com/attachments/1197563222824333363/1197863963954786394/20240119_142214_0000.png?ex=65bcd0c0&is=65aa5bc0&hm=237f86d4e630a086c5e8219646783c2d97efefad383fb035a3ba4c29d5544566&")
        .setThumbnail("https://cdn.discordapp.com/avatars/1026886238487191674/c886234a066185536694b45466ab74ca.webp?size=256https://cdn.discordapp.com/avatars/1026886238487191674/c886234a066185536694b45466ab74ca.webp?size=256")
         .setDescription(`
-        Selam dostlar :wave: ! Ben **Soulcore** benim sayemde sunucularınızın denetleyebilirsiniz.
+        Selam dostlar :wave: ! Ben **ViaAppTeam Advanced Moderation** benim sayemde sunucularınızı denetleyebilirsiniz.
 
         **Kategoriler:**
         > ${emoji("home")} Genel

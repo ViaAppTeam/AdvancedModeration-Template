@@ -8,7 +8,7 @@ const emojis = require("../../Config/emojis.json");
 import * as dotenv from "dotenv";
 dotenv.config({ path: "./src/Config/.env" });
 
-export default class Armix extends Client {
+export default class ViaAppTeam extends Client {
     constructor() {
         super({
             intents: [

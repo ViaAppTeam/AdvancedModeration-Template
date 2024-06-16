@@ -28,8 +28,8 @@ export const data = {
         const newEmbed = new EmbedBuilder()
             .setTitle(`ViaAppTeam Advanced Moderation - Yardım Menü`)
         .setColor(`Blurple`)
-        .setImage("https://cdn.discordapp.com/attachments/1197563222824333363/1197863963954786394/20240119_142214_0000.png?ex=65bcd0c0&is=65aa5bc0&hm=237f86d4e630a086c5e8219646783c2d97efefad383fb035a3ba4c29d5544566&")
-       .setThumbnail("https://cdn.discordapp.com/avatars/1026886238487191674/c886234a066185536694b45466ab74ca.webp?size=256https://cdn.discordapp.com/avatars/1026886238487191674/c886234a066185536694b45466ab74ca.webp?size=256")
+        .setImage("https://cdn.discordapp.com/attachments/1074584753187074110/1207391263654158346/Remove-bg.ai_1707934890159.png?ex=666fd5fd&is=666e847d&hm=b848920744c8ad7921e68f25b4c8fcb64ff412eb7491ed717bb2f95fd7490538&")
+       .setThumbnail("https://cdn.discordapp.com/attachments/1074584753187074110/1132992398465716344/ViaAppNew-removebg-preview.png?ex=667018e5&is=666ec765&hm=65e81fd250d1213a64587fbe04e324125b0316b44abf8260e6c50c0306e207e4&")
         .setDescription(`
         Selam dostlar :wave: ! Ben **ViaAppTeam Advanced Moderation** benim sayemde sunucularınızı denetleyebilirsiniz.
 
@@ -54,9 +54,9 @@ export const data = {
                                     .setTitle(`${interaction.client.user.username} | ${interaction?.values[0]}`)
                                     .setColor("Blurple")
                                     .setColor(`Blurple`)
-                                    .setImage("https://cdn.discordapp.com/attachments/1197563222824333363/1197863963954786394/20240119_142214_0000.png?ex=65bcd0c0&is=65aa5bc0&hm=237f86d4e630a086c5e8219646783c2d97efefad383fb035a3ba4c29d5544566&")
-                                   .setThumbnail("https://cdn.discordapp.com/avatars/1026886238487191674/c886234a066185536694b45466ab74ca.webp?size=256https://cdn.discordapp.com/avatars/1026886238487191674/c886234a066185536694b45466ab74ca.webp?size=256")
-                                   .setDescription(list)
+        .setImage("https://cdn.discordapp.com/attachments/1074584753187074110/1207391263654158346/Remove-bg.ai_1707934890159.png?ex=666fd5fd&is=666e847d&hm=b848920744c8ad7921e68f25b4c8fcb64ff412eb7491ed717bb2f95fd7490538&")
+       .setThumbnail("https://cdn.discordapp.com/attachments/1074584753187074110/1132992398465716344/ViaAppNew-removebg-preview.png?ex=667018e5&is=666ec765&hm=65e81fd250d1213a64587fbe04e324125b0316b44abf8260e6c50c0306e207e4&")
+         .setDescription(list)
                                     .setFooter({ text: `${interaction?.user?.username} tarafından istendi.`, iconURL: interaction.user.displayAvatarURL({ dynamic: true }) })
                                     .setTimestamp()
                             ]
